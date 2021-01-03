@@ -1,0 +1,194 @@
+* {
+	margin: 0;
+}
+
+body {
+	font-family: Arial;
+	font-size: 1.5em;
+}
+
+/* header */
+header {
+	margin: 1% 0 0 0;
+}
+
+header nav {
+	display: inline-block;
+	float: right;
+}
+
+#headerTitle {
+	display: inline-block;
+	font-size: 2em;
+	margin: 0 0 1% 1%;
+}
+
+header li {
+	display: inline-block;
+	list-style-type: none;
+
+}
+
+header a {
+	padding: 12px;
+	margin: auto auto;
+}
+
+/*header nav*/
+header a:link {
+	text-decoration: none;
+	color: #015249;
+}
+
+header a:visited {
+	color: #015249;
+}
+
+header a:hover {
+	background-color: #77C9D4;
+	color: white;
+	padding-bottom: 50px;
+}
+
+/*Hero Header*/
+.heroSection {
+	background-color: #77C9D4;
+	margin-top: 0;
+}
+
+.heroText {
+	text-align: center;
+	padding: 2% 0;
+	color: white;
+	line-height: 200%;
+}
+
+.heroText h2 {
+	font-size: 1.5em;
+}
+
+/*Contact Section*/
+.contactSection {
+	width: 100%;
+	background-color: #c5e8ed;
+}
+
+.center {
+	padding: 2% 0;
+}
+
+#contactInfo img {
+	float: left;
+	width: 200px;
+	height: 250px;
+	border: 5px solid #77C9D4;
+	border-radius: 50%;
+	margin-left: 35%;
+	object-fit: cover;
+}
+
+#contactInfo p {
+	float: left;
+	margin: 5% 0 0 5%;
+	right: 100px;
+}
+
+#contactInfo:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+/*About Section*/
+#aboutSection {
+	width: 100%;
+}
+
+#aboutTitle {
+	text-align: center;
+}
+
+.aboutContainer {
+	width: 100%;
+	padding: 1% 0;
+}
+
+.aboutContainer h2, p {
+	margin-left: 2%;
+}
+
+.aboutContainer h2 {
+	font-size: 0.9em;
+}
+
+.aboutContainer li {
+	margin: 1% 0;
+}
+
+.aboutContainer:nth-of-type(even) {
+	background-color: #eaeaea;
+}
+
+/*Photo Section*/
+#photoSection {
+	width: 100%;
+	background-color: #eaeaea;
+}
+
+#photoSection h2 {
+	text-align: center;
+	padding: 1% 0;
+}
+
+.photoCenter {
+	text-align: center;
+	padding: 1% 0;
+}
+
+.imageContainer {
+	width: 17%;
+	height: 300px;
+	margin: 0.3%;
+	object-fit: cover;
+	border-radius: 2.5%;
+}
+
+/*Footer*/
+footer {
+	width: 100%;
+	font-size: 0.7em;
+	background-color: #77C9D4;
+}
+
+footer h2 {
+	font-size: 0.9em;
+	color: white;
+}
+
+footer li {
+	display: inline-block;
+	list-style-type: none;
+	margin: 0.5%;
+}
+
+footer div {
+	padding: 1% 0;
+	text-align: center;
+	width: inherit;
+
+}
+
+
+
+footer a:link {
+	color: white;
+	text-decoration: none;
+}
+
+footer a:visited {
+	color: white;
+}
+
+footer a:hover {
+	color: #4e8890;
+}

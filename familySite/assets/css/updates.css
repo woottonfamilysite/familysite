@@ -1,0 +1,138 @@
+* {
+	margin: 0;
+}
+
+body {
+	font-family: Arial;
+	font-size: 1.5em;
+}
+
+/* header */
+header {
+	margin: 1% 0 0 0;
+}
+
+header nav {
+	display: inline-block;
+	float: right;
+}
+
+#headerTitle {
+	display: inline-block;
+	font-size: 2em;
+	margin: 0 0 1% 1%;
+}
+
+header li {
+	display: inline-block;
+	list-style-type: none;
+
+}
+
+header a {
+	padding: 12px;
+	margin: auto auto;
+}
+
+/*header nav*/
+header a:link {
+	text-decoration: none;
+	color: #015249;
+}
+
+header a:visited {
+	color: #015249;
+}
+
+header a:hover {
+	background-color: #77C9D4;
+	color: white;
+	padding-bottom: 50px;
+}
+
+header li a[href="updates.html"] {
+	background-color: #77C9D4;
+	padding-bottom: 50px;
+	color: white;
+}
+
+/* Hero Section */
+
+.heroSection {
+	background-color: #77C9D4;
+	margin-top: 0;
+}
+
+.heroText {
+	text-align: center;
+	padding: 2% 1%;
+	color: white;
+	line-height: 120%;
+}
+
+.heroText h2 {
+	font-size: 1.5em;
+	margin-bottom: 2%;
+}
+
+.howTo-section {
+	width: 100%;
+}
+
+#howTo {
+	width: 70%;
+	display: block;
+	margin: 0 auto;
+	text-align: left;
+	font-size: 0.7em;
+	color: black;
+	padding: 2%;
+}
+
+.pageSpace {
+	margin-bottom: 30%;
+}
+
+/*Footer*/
+footer {
+	width: 100%;
+	font-size: 0.7em;
+	background-color: #77C9D4;
+}
+
+footer h2 {
+	font-size: 0.9em;
+	color: white;
+}
+
+footer li {
+	display: inline-block;
+	list-style-type: none;
+	margin: 0.5%;
+}
+
+footer div {
+	padding: 1% 0;
+	text-align: center;
+	width: inherit;
+
+}
+
+
+
+footer a:link {
+	color: white;
+	text-decoration: none;
+}
+
+footer a:visited {
+	color: white;
+}
+
+footer a:hover {
+	color: #4e8890;
+}
+
+/*footer a {
+	margin-left: 30%;
+}*/
